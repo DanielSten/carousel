@@ -124,10 +124,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding: 4px 0;
     margin: 0 5px;
 }
-.button_delete .bx {
-    font-size: 30px;
-}
 .button_added:hover {
+    border: solid 2px black;
+}
+.button_delete:hover {
     border: solid 2px black;
 }
 
