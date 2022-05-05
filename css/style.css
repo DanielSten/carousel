@@ -1,0 +1,142 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.flex{
+    display: flex;
+}
+.hidden{
+    display: none !important; 
+}
+.grey_background{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 100vh;
+    padding-top: 60px;
+}
+.photo_info{
+    height: 90vh;
+    width: 50vw;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: white;
+}
+.photo_carousel{
+    background-color: rgb(0, 0, 0);
+    height: 70%;
+    background: url('../img/lamba.jpg') 0 0/auto 100% no-repeat;
+}
+.block_user_added{
+    padding: 20px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+
+}
+.user_photo{
+    background: url('../img/lamba.jpg') center /auto 100% no-repeat;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+}
+.user_info{
+    font-family: Roboto;
+}
+
+
+
+
+.form_block{
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+.block_field_input_comment{
+    padding: 20px 15px 0;
+}
+.text_area {
+    resize: none;
+    outline: none;
+    width: 100%;
+    height: 70px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: solid 1px rgba(202, 202, 202, 0.925);
+}
+
+.buttons{
+    padding: 5px;
+    text-align: right;
+    justify-content:flex-end;
+}
+
+.button_form_push {
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: solid 2px rgba(202, 202, 202, 0.384);
+    transition-duration: 1s;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 0 15px;
+    height: 40px;
+}
+
+.button_form_push:hover {
+    border: solid 2px black;
+}
+
+
+.button_added{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: solid 2px rgba(202, 202, 202, 0.384);
+    transition-duration: 1s;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 12px 0;
+    margin: 0 5px;
+}
+.button_delete{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: solid 2px rgba(202, 202, 202, 0.384);
+    transition-duration: 1s;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 4px 0;
+    margin: 0 5px;
+}
+.button_delete .bx {
+    font-size: 30px;
+}
+.button_added:hover {
+    border: solid 2px black;
+}
+
+
+
+#uploadFile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
