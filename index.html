@@ -34,9 +34,10 @@
 						<form class="form" method="post">
 							<textarea class="text_area" placeholder="Напишите ваш текст" name="text_blog"></textarea>
 							<div class="buttons flex">
+								<div class="name_file_input" id="conclusionFile"></div>
 								<label for="uploadFile"><div class="button_added" id="buttonAdded"><i class='bx bx-paperclip'></i></div></label>
 								<label><div class="button_delete hidden" id="buttonDelete"><i class='bx bx-x'></i></div></label>
-								<input type="file" id="uploadFile" name="upload" accept=".png, .jpg, .jpeg, .gif">
+								<input type="file" id="uploadFile" name="upload" accept=".png, .jpg, .jpeg, .gif" onchange="showFile(this)">
 								<button class="button_form_push">Отправить</button>
 							</div>
 						</form>

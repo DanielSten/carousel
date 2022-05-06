@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding-top: 60px;
 }
 .photo_info{
-    height: 90vh;
+    height: 100%;
     width: 50vw;
     margin: 0 auto;
     border: 1px solid;
@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 .form_block{
-    margin: 10px auto;
+    margin: auto;
     border-radius: 10px;
 
 }
@@ -81,6 +81,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     padding: 5px;
     text-align: right;
     justify-content:flex-end;
+}
+.name_file_input{
+    font-family: Roboto;
+    font-size: 14px;
+    font-size: 14px;
+    margin: 0 10px;
+    padding-top: 14px;
+    height: 40px;
 }
 
 .button_form_push {
