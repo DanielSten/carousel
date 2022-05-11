@@ -29,16 +29,74 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 .photo_info{
     height: 100%;
-    width: 50vw;
+    width: 55vw;
     margin: 0 auto;
     border: 1px solid;
     border-radius: 2px;
     background-color: white;
 }
 .photo_carousel{
-    background-color: rgb(0, 0, 0);
-    height: 70%;
-    background: url('../img/lamba.jpg') 0 0/auto 100% no-repeat;
+    height: 600px;
+    position: relative;
+}
+.arrow_photo_left{
+    height: 600px;
+    width: 15%;
+    padding: 0 5px;
+    padding-top: 295px;
+    position: absolute;
+}
+.arrow_photo_left:hover {
+    background: linear-gradient(270deg, rgba(34,193,195,0) 0%, rgba(5, 5, 5, 0.39) 100%);
+}
+.arrow_photo_right{
+    height: 600px;
+    width: 15%;
+    text-align: right;
+    padding: 0 5px;
+    padding-top: 295px;
+    right: 0;
+    position: absolute;
+}
+.arrow_photo_right:hover {
+    background: linear-gradient(90deg, rgba(34,193,195,0) 0%, rgba(5, 5, 5, 0.39) 100%);  
+}
+.photo_carousel .bx{
+    font-size: 25px;
+    color: white;
+}
+.user_photo_added_1{
+    background: url('../img/LambaRetroDiablo.jpg') center/auto 100% no-repeat;
+    height: 100%;
+    justify-content:space-between;
+    display: none;
+}
+.user_photo_added_2{
+    background: url('../img/lambaCountach.png') center/auto 100% no-repeat;
+    height: 100%;
+    justify-content:space-between;
+    display: none;
+}
+.user_photo_added_3{
+    background: url('../img/lamba.jpg') center /auto 100% no-repeat;
+    height: 100%;
+    justify-content:space-between;
+    display: none;
+}
+.user_photo_added_4{
+    background: url('../img/lambaAveBlack.jpg') center/auto 100% no-repeat;
+    height: 100%;
+    justify-content:space-between;
+    display: none;
+}
+.user_photo_added_5{
+    background: url('../img/lambaHurGrey.jpg') center /auto 100% no-repeat;
+    height: 100%;
+    justify-content:space-between;
+    display: none;
+}
+.user_photo_added_1{
+    display: block;
 }
 .block_user_added{
     padding: 20px;
@@ -54,6 +112,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 .user_info{
     font-family: Roboto;
+}
+.user_name{
+    margin: 9px 0 0 15px;
+    color: rgb(54, 54, 133);
+    font-size: 14px;
+    font-weight: 500;
+}
+.user_date_photo_added{
+    margin: 7px 0 0 15px;
+    font-size: 12px;
+    color: grey;
 }
 
 
